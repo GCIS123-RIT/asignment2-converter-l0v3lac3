@@ -90,6 +90,9 @@ def aed_to_others():
 
 # converts from other currency to AED
 def others_to_aed():
+    """
+    the user will enter the amount they want to convert to
+    """
     amount = float(input("Enter the amount you want to convert: "))
 
 # displace introduction
